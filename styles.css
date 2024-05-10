@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .index-header {
+    color: darkred;
+    font-style: italic;
+ }
+ 
+ .index.main-list {
+    color: darkblue;
+ }
+
+ .beef.description {
+    color: blue
+ }
+
+ .beef-button {
+    background-color: lightblue;
+    color: darkred;
+    font-weight: 800;
+ }
