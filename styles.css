@@ -19,3 +19,11 @@
     color: darkred;
     font-weight: 800;
  }
+
+ .instruction-odd {
+   border: 5px dotted deeppink;
+ }
+
+ .instruction-even {
+   border: 5px solid skyblue;
+ }
