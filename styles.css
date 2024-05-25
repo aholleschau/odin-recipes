@@ -11,17 +11,19 @@
    margin: 0;
    padding: 0;
    list-style: none;
+   justify-content: center;
    gap: 2rem;
 }
 
 .nav-bar li {
    border: solid green 5px;
    flex: 0 1 200px;
+   
 }
 
 .home-list {
    display: flex;
-   
+   flex-wrap: wrap;
    gap: 2rem;
    border: solid blue 5px;
 }
@@ -29,6 +31,7 @@
 .home-list div {
    border: solid yellow 5px;
    flex: 0 1 200px;
+   
 }
 
 .ingredients ul li {
@@ -47,4 +50,8 @@
 .instructions ol li {
    margin-left: 50px;
    padding: 5px;
+}
+
+.recipe-body {
+   margin-left: 30px;
 }
