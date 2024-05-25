@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
  .index-header {
     color: darkred;
@@ -14,16 +15,29 @@
     color: blue
  }
 
- .beef-button {
-    background-color: lightblue;
-    color: darkred;
+ li {
+   margin: 10px;
+ }
+
+ .home-button {
     font-weight: 800;
  }
 
- .instruction-odd {
-   border: 5px dotted deeppink;
+ .nav-bar {
+   display: inline;
+   padding: 6px 10px;
+   border: 2px solid grey;
+   margin: 20px;
  }
 
- .instruction-even {
-   border: 5px solid skyblue;
+ .ingredients {
+  padding: 1em;
+  border: 2px dotted black;
+  width: 500px;
+ }
+
+ .instructions {
+  padding: 1em;
+  border: 2px dotted black;
+  width: 800px;
  }
