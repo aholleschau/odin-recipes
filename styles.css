@@ -1,43 +1,32 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
- .index-header {
-    color: darkred;
-    font-style: italic;
- }
- 
- .index.main-list {
-    color: darkblue;
- }
 
- .beef.description {
-    color: blue
- }
+.nav-bar {
+   display: flex;
+   border: solid red 5px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   gap: 2rem;
+}
 
- li {
-   margin: 10px;
- }
+.nav-bar li {
+   border: solid green 5px;
+   flex: 0 1 200px;
+}
 
- .home-button {
-    font-weight: 800;
- }
+.home-list {
+   display: flex;
+   
+   gap: 2rem;
+   border: solid blue 5px;
+}
 
- .nav-bar {
-   display: inline;
-   padding: 6px 10px;
-   border: 2px solid grey;
-   margin: 20px;
- }
-
- .ingredients {
-  padding: 1em;
-  border: 2px dotted black;
-  width: 500px;
- }
-
- .instructions {
-  padding: 1em;
-  border: 2px dotted black;
-  width: 800px;
- }
+.home-list div {
+   border: solid yellow 5px;
+   flex: 0 1 200px;
+}
