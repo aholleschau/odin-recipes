@@ -30,3 +30,21 @@
    border: solid yellow 5px;
    flex: 0 1 200px;
 }
+
+.ingredients ul li {
+   margin-left: 30px;
+   padding: 5px;
+}
+
+.description {
+   margin-bottom: 50px;
+}
+
+.ingredients {
+   margin-bottom: 60px;
+}
+
+.instructions ol li {
+   margin-left: 50px;
+   padding: 5px;
+}
