@@ -7,66 +7,67 @@
     <title>Odin Recipes</title>
 </head>
 <body class="index-body">
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="recipes/beef-stew.html">Beef Stew</a></li>
-            <li><a href="recipes/brussels-sprouts.html">Brussels Sprouts</a></li>
-            <li><a href="recipes/korean-beef-bowl.html">Korean Beef</a></li>
-            <li><a href="recipes/recipe4.html">Recipe 4</a></li>
-            <li><a href="recipes/recipe5.html">Recipe 5</a></li>
-        </ul>    
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li class="home-link"><a href="index.html">Home</li>
+                <li><a href="recipes/recipe1.html">Recipe One</a></li>
+                <li><a href="recipes/recipe2.html">Recipe Two</a></li>
+                <li><a href="recipes/recipe3.html">Recipe Three</a></li>
+                <li><a href="recipes/recipe4.html">Recipe Four</a></li>
+                <li><a href="recipes/recipe5.html">Recipe Five</a></li>
+            </ul> 
+        </div>
     </nav>
-    <h1 class="index-header">Odin Recipes</h1>
-    <div class="home-list">
-        <div class="home-list-beef">
-            <a href="recipes/beef-stew.html">
-                <h3>Beef Stew</h3>
-                <img src="img/beef-stew.jpg" width="250px">
-            </a>
-            <p>
-                A delicous beer braised stew with vegetables.
-                Using Guiness and chuck roast, with the help of
-                bacon and heary vegetables, it's perfect on its 
-                itself, poured over potatoes or brough to a pot luck.
-            </p>
+    <header class="hero">
+        <div class="container">
+            <div>
+                <h1 class="index-header">Odin Project Eats</h1>
+                <div class="hero-copy">eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum</div>    
+            </div>
+            <img src="img/hero.jpg" width="600px">
         </div>
-        <div class="home-list-brussels">
-            <a href="recipes/brussels-sprouts.html">
-                <h3>Brussels Sprouts</h3>
-                <img src="img/brussels.jpg" height="200px">
-                
-            </a>
-            <p>
-                Brussels sprouts are roasted with honey and bacon till
-                crispy and caramelised. They are easy, fast and too delicious
-                for words!
-            </p>
+    </header>
+    <section class="all-recipe-tiles">
+        <div class="container">
+            <h2>Explore our recipes!</h2>
+            <div class="recipe-tile recipe-one">
+                <div>
+                    <h3>Recipe One</h3>
+                    <div>dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa</div> 
+                </div>
+                <img src="img/brussels.jpg" width="350px">
+            </div>
+            <div class="recipe-tile recipe-two">
+                <div>
+                    <h3>Recipe Two</h3>
+                    <div>tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh</div> 
+                </div>
+                <img src="img/beef-stew.jpg" width="350px">
+            </div>
+            <div class="recipe-tile recipe-three">
+                <div>
+                    <h3>Recipe Three</h3>
+                    <div>mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam</div> 
+                </div>
+                <img src="img/korean-beef-bowl.jpg" width="350px">
+            </div>
+            <div class="recipe-tile recipe-four">
+                <div>
+                    <h3>Recipe Four</h3>
+                    <div>sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit</div> 
+                </div>
+                <img src="img/fish-taco.jpg" width="350px">
+            </div>
+            <div class="recipe-tile recipe-five">
+                <div>
+                    <h3>Recipe Five</h3>
+                    <div>imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero</div> 
+                </div>
+                <img src="img/salad.jpg" width="350px">
+            </div>
         </div>
-        <div id ="korean" class="home-list-korean">
-            <a href="recipes/korean-beef-bowl.html">
-                <h3>Korean Beef Bowl</h3>
-                <img src="img/korean-beef-bowl.jpg" width="200px">
-            </a>
-            <p>
-                This delicious Korean beef bowl is quick and easy to make with ground beef.
-                It's seasoned with fresh ginger, garlic, soy, sesame seeds, and crushed red pepper,
-                but these ingredients can easily be adjusted to suit your taste. 
-                Serve over warm rice or spiralized vegetables.
-            </p>    
-        </div>
-        <div class="home-list-placeholder">
-            <a href=recipes/recipe4.html>
-                <h3>Recipe 4</h3>
-                <img src="img/generic.jpg" width="200px">
-            </a>
-        </div>
-        <div class="home-list-placeholder">
-            <a href=recipes/recipe5.html>
-                <h3>Recipe 5</h3>
-                <img src="img/generic.jpg" width="200px">
-            </a>
-        </div>
-    </div> 
+    </section>
+    <script src="index.js"></script> 
 </body>
 </html>

@@ -5,78 +5,17 @@
     padding: 0px;
 }
 
-h1 {
-   background-color: antiquewhite;
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
 }
-.nav-bar {
-   display: flex;
-   /* border: solid red 5px; */
-   background-color: rgb(228, 254, 245);
-   margin: 0;
-   padding: 0;
+
+.navbar .container ul {
    list-style: none;
-   justify-content: center;
-   gap: 2rem;
+   text-decoration: none;
+   justify-content: space-between;
 }
 
-div p {
-   font-size: 15px;
-   color: rgb(47, 44, 44);
+.home-link {
+   margin-right: auto;
 }
-
-div img {
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-.nav-bar li {
-   /* border: solid green 5px; */
-   flex: 0 1;
-   flex-basis: content;
-   padding: 5px;
-   text-align: center;
-}
-
-.home-list {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   background-color: antiquewhite;
-   
-   /* border: solid blue 5px; */
-}
-
-.home-list div {
-   /* border: solid yellow 5px; */
-   flex: 0 1 400px;
-   margin: 20px;
-   height: 500px;
-   background-color: bisque;
-
-}
-
-.ingredients ul li {
-   margin-left: 30px;
-   padding: 5px;
-}
-
-.description {
-   margin-bottom: 50px;
-}
-
-.ingredients {
-   margin-bottom: 60px;
-}
-
-.instructions ol li {
-   margin-left: 50px;
-   padding: 5px;
-}
-
-.recipe-body {
-   margin-left: 30px;
-}
-
-.home-list div {
-   padding: 10px;
-}
-
