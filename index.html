@@ -4,70 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Odin Recipes</title>
+    <title>Ordin Recipes</title>
 </head>
-<body class="index-body">
-    <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li class="home-link"><a href="index.html">Home</li>
-                <li><a href="recipes/recipe1.html">Recipe One</a></li>
-                <li><a href="recipes/recipe2.html">Recipe Two</a></li>
-                <li><a href="recipes/recipe3.html">Recipe Three</a></li>
-                <li><a href="recipes/recipe4.html">Recipe Four</a></li>
-                <li><a href="recipes/recipe5.html">Recipe Five</a></li>
-            </ul> 
-        </div>
-    </nav>
-    <header class="hero">
-        <div class="container">
-            <div>
-                <h1 class="index-header">Odin Project Eats</h1>
-                <div class="hero-copy">eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum</div>    
-            </div>
-            <img src="img/hero.jpg" width="600px">
-        </div>
+<body>
+    <header>
+        <img width="35" height="25">
+        <h1>All My Recipes!</h1>
     </header>
-    <section class="all-recipe-tiles">
-        <div class="container">
-            <h2>Explore our recipes!</h2>
-            <div class="recipe-tile recipe-one">
-                <div>
-                    <h3>Recipe One</h3>
-                    <div>dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa</div> 
-                </div>
-                <img src="img/brussels.jpg" width="350px">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes/recipes-all.html">Recipes</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="feature-recipes">
+            <p>Featured Recipes</p>
+            <div class="recipe-card-wrapper">
+                <img width="200" height="200">
+                <p><a href="recipes/beef-stew.html">Beef Stew</a></p>
             </div>
-            <div class="recipe-tile recipe-two">
-                <div>
-                    <h3>Recipe Two</h3>
-                    <div>tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh</div> 
-                </div>
-                <img src="img/beef-stew.jpg" width="350px">
+            <div class="recipe-card-wrapper">
+                <img width="200" height="200">
+                <p><a href="recipes/korean-beef-bowl.html">Korean Beef Bowl</a></p>
             </div>
-            <div class="recipe-tile recipe-three">
-                <div>
-                    <h3>Recipe Three</h3>
-                    <div>mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam</div> 
-                </div>
-                <img src="img/korean-beef-bowl.jpg" width="350px">
+            <div class="recipe-card-wrapper">
+                <img width="200" height="200">
+                <p><a href="recipes/brussels-sprouts.html">Roasted Brussels Sprouts</a></p>
             </div>
-            <div class="recipe-tile recipe-four">
-                <div>
-                    <h3>Recipe Four</h3>
-                    <div>sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit</div> 
-                </div>
-                <img src="img/fish-taco.jpg" width="350px">
-            </div>
-            <div class="recipe-tile recipe-five">
-                <div>
-                    <h3>Recipe Five</h3>
-                    <div>imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero</div> 
-                </div>
-                <img src="img/salad.jpg" width="350px">
-            </div>
-        </div>
-    </section>
-    <script src="index.js"></script> 
+        </section>
+    </main>
+    <footer>
+        <p>Copyright Alix</p>
+    </footer>
 </body>
 </html>
