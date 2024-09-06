@@ -1,3 +1,42 @@
 * {
    font-family: Arial, Helvetica, sans-serif;
 }
+
+.recipe-card.wrapper {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.feature-recipes {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2em;
+}
+
+.recipe-card-description {
+   text-wrap: wrap;
+}
+
+nav {
+   background-color: #f8f8ff;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+   background-color: #a7c0c0;
+   padding: 20px;
+}
+
+footer {
+   padding: 20px;
+   background-color: #eeeeee;
+}
+
+.recipe-card-wrapper {
+   width: 215px;
+}
